@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SFLY3" thread-count="5" parallel="tests">
+    <test verbose="2" preserve-order="true" name="TC_001_LoginSfly3">
+        <parameter name="browser" value="CHROME"></parameter>
+        <classes>
+            <class name="com.sfly3.scripts.TC_001_LoginSfly3"></class>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="TC_002_MOGifts">
+        <parameter name="browser" value="edge"></parameter>
+        <classes>
+            <class name="com.sfly3.scripts.TC_002_MOGifts"></class>
+        </classes>
+    </test>
+</suite>

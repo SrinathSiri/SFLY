@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SFLY3">
+    <test verbose="2" preserve-order="true" name="TC_001_LoginSfly3">
+        <parameter name="browser" value="firefox"></parameter>
+        <classes>
+            <class name="com.sfly3.scripts.TC_001_LoginSfly3"></class>
+        </classes>
+    </test>
+</suite>

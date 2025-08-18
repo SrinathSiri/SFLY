@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/v-srinath.sirimalla/AutomationWorkspace/SFLY/src/test/java/com/sfly3/scripts/TC_001_LoginSfly3.java">
+        <parameter name="browser" value="CHROME"></parameter>
+        <classes>
+            <class name="com.sfly3.scripts.TC_001_LoginSfly3">
+                <methods>
+                    <include name="loginSfly3"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
