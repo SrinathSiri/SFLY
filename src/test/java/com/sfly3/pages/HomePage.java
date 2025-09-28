@@ -11,9 +11,9 @@ import java.util.List;
 
 public class HomePage {
 
-    public HomePage(WebDriver driver){
+    public HomePage(WebDriver driver) {
 
-        PageFactory.initElements(driver,this);
+        PageFactory.initElements(driver, this);
     }
 
     @FindBy(xpath = "//p[text()='Projects']")
@@ -27,19 +27,19 @@ public class HomePage {
     @FindBy(xpath = "(//span[text()='Gifts'])[1]")
     private WebElement moGifts = null;
 
-    @FindBy(xpath="(//p[text()='Ceramic Mugs'])[1]")
+    @FindBy(xpath = "(//p[text()='Ceramic Mugs'])[1]")
     private WebElement moGifts_ceramicmugs = null;
 
-    @FindBy(xpath="(//div[@class='sfly-lib-my-5 sfly-lib-grid sfly-lib-grid-cols-5 sfly-lib-gap-4'])[3]//div[2]//ul//li//a")
+    @FindBy(xpath = "(//div[@class='sfly-lib-my-5 sfly-lib-grid sfly-lib-grid-cols-5 sfly-lib-gap-4'])[3]//div[2]//ul//li//a")
     private List<WebElement> moGifts_drinkwareOptions = null;
 
-    public void mouseover_Gifts(WebDriver driver,String product) throws InterruptedException {
+    public void mouseover_Gifts(WebDriver driver, String product) throws InterruptedException {
         Actions action = new Actions(driver);
         action.moveToElement(moGifts).build().perform();
         Thread.sleep(3000);
-       // action.click(moGifts_ceramicmugs).build().perform();
-        for(WebElement ecoption:moGifts_drinkwareOptions){
-            if(ecoption.getText().equalsIgnoreCase(product)){
+        // action.click(moGifts_ceramicmugs).build().perform();
+        for (WebElement ecoption : moGifts_drinkwareOptions) {
+            if (ecoption.getText().equalsIgnoreCase(product)) {
                 action.click(ecoption).build().perform();
                 break;
             }
