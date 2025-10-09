@@ -13,6 +13,7 @@
         <classes>
             <class name="com.sfly3.scripts.TC_002_MOGifts"></class>
             <class name="com.sfly3.scripts.TC_001_LoginSfly3"></class>
+            <class name="com.sfly3.scripts.TC_003_LoginSfly3DataProvider"></class>
 
         </classes>
     </test>
