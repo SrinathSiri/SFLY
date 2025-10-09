@@ -13,6 +13,7 @@ import java.time.Duration;
 public class DropDown {
     @Test
     public void dropDownSelect() throws Exception{
+        // Dropdown practice Leafground
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
