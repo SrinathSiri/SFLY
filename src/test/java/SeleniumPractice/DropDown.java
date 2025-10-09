@@ -14,7 +14,6 @@ public class DropDown {
     @Test
     public void dropDownSelect() throws Exception{
         // Dropdown practice on leafground site
-        // Dropdown practice Leafground
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
