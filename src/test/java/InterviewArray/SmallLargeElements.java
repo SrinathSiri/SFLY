@@ -33,6 +33,14 @@ public class SmallLargeElements {
         System.out.println("small element without collections : "+small);
         System.out.println("large element without collections : "+large);
 
+        //--------------
+        // using Arrays.sort() method
+        /*import java.util.Arrays;
+        Arrays.sort(arr);
+        System.out.println("small element using Arrays.sort(): "+arr[0]);
+        System.out.println("large element using Arrays.sort(): "+arr[arr.length-1]);*/
+
+
     }
 
 
