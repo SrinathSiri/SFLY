@@ -1,4 +1,4 @@
-package JavaPractice;
+package InterviewString;
 
 public class StringEqualDouble {
 

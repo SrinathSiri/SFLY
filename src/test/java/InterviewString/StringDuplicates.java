@@ -1,4 +1,4 @@
-package JavaPractice;
+package InterviewString;
 import java.util.LinkedHashSet;
 import java.util.Set;
 

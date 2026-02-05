@@ -1,4 +1,4 @@
-package JavaPractice;
+package InterviewString;
 
 public class StringCharOccurance1 {
     public static void main(String[] args) {
