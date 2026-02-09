@@ -11,7 +11,7 @@ interface Cab {
     }
 }*/
 
-public class Test {
+public class Ola2 {
     public static void main(String[] args) {
         Cab obj = () -> {
             System.out.println("Booked Ola cab with Fuel filled");
